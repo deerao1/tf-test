@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket = "zevopstest"
     key = "terraform"
-    region = "us-east-2"
+    region = "us-east-1"
   }
   required_version = ">= 1.2.0"
 }
